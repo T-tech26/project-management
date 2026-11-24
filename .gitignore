@@ -2,7 +2,17 @@ node_modules
 
 .env
 .env*
-!env.example
+!.env.example
 
 .next
 dist
+
+.vercel
+
+coverage
+
+*.log
+
+.DS_Store
+
+Thumbs.db
