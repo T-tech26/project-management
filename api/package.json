@@ -1,8 +1,8 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "A full-stack app for organizing workspaces, projects, and tasks, with assignments, due dates, and permissions by role",
-  "license": "ISC (in progress)",
+  "description": "A full-stack app for organizing workspaces, projects, and tasks, with assignments, due dates, and permissions by role (in progress)",
+  "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "app.js",
@@ -11,7 +11,15 @@
   },
   "devDependencies": {
     "@types/node": "^24.19.2",
+    "@types/pg": "^8.23.1",
+    "prisma": "^7.10.1",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "dotenv": "^18.0.10",
+    "pg": "^8.23.1"
   }
 }
