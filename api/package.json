@@ -4,7 +4,7 @@
   "description": "A full-stack app for organizing workspaces, projects, and tasks, with assignments, due dates, and permissions by role (in progress)",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +17,8 @@
     "typescript": "^7.0.2"
   },
   "overrides": {
-  "@prisma/config": {
-    "effect": "3.22.1"
+    "@prisma/config": {
+      "effect": "3.22.1"
     }
   },
   "dependencies": {
